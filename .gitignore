@@ -1,0 +1,10 @@
+*.parquet
+*.npz
+*.npy
+*.joblib
+*.pkl
+*.pyc
+__pycache__/
+models/
+processed_data/
+results/

@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Adversarially Hardened Hierarchical Machine Learning for IoT Intrusion Detection on CICIoT2023"
+authors:
+  - family-names: Abd Elrihem
+    given-names: Eid
+    email: aedeid0@gmail.com
+    affiliation: "School of Computing, Queen's University"
+  - family-names: Sherif
+    given-names: Ahmed
+    email: ahmedd_sherif@outlook.com
+    affiliation: "School of Computing, Queen's University"
+  - family-names: Abdelhamed
+    given-names: Ahmed
+    email: ahmed.abdelhamed.ai@gmail.com
+    affiliation: "School of Computing, Queen's University"
+date-released: "2026-06-22"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/eid-abdelrihem/Hierarchical-IoT-Intrusion-Detection"
+abstract: >
+  A three-stage hierarchical intrusion detection system evaluated on CICIoT2023.
+  A binary gate separates attack from benign traffic; confirmed attacks are routed
+  to a seven-family classifier, then to dedicated sub-type specialist models.
+  XGBoost with Optuna tuning and Borderline-SMOTE achieves 94.13% macro F1
+  on 34 classes — a 6.5-point gain over a matched flat baseline on identical test flows.
+  The binary gate is evaluated against ZOO, HopSkipJump, Surrogate-PGD, and
+  custom statistical shift attacks, with multi-attack retraining reducing
+  transfer-PGD evasion from 0.08% to 0.00%.
+keywords:
+  - IoT security
+  - intrusion detection system
+  - hierarchical classification
+  - XGBoost
+  - adversarial robustness
+  - SHAP
+  - CICIoT2023
+  - machine learning
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Abd Elrihem
+      given-names: Eid
+    - family-names: Sherif
+      given-names: Ahmed
+    - family-names: Abdelhamed
+      given-names: Ahmed
+  title: "Adversarially Hardened Hierarchical Machine Learning for IoT Intrusion Detection on CICIoT2023"
+  year: 2026
